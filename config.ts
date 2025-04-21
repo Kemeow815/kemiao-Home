@@ -2,31 +2,37 @@ export default {
 
     // 👇页面内容相关配置
     // 名字
-    Name: "❖星港◎Star☆",
+    Name: "❖喵落阁☆",
 
     // 头像
-    Avatar: "https://bu.dusays.com/2025/04/11/67f92f6fcfb26.webp",
+    Avatar: "https://s2.loli.net/2025/04/20/V8zWaEoxP5msqNQ.jpg",
 
     // 介绍
-    Desc: "👋 Hi! 欢迎来到 ❖星港◎Star☆ 的主页",
+    Desc: "👋 Hi! 欢迎来到 ❖克喵爱吃卤面☆ 的主页",
 
     // Github 用户名
-    GithubUsername: "Stars-harbor",
+    GithubUsername: "Kemeow815",
 
     // 博客RSS订阅
-    BlogRSS: "https://blog.starsharbor.com/atom.xml",
+    BlogRSS: "https://blog-v3.kemeow.top/atom.xml",
 
     // 博客链接
-    BlogUrl: "https://blog.starsharbor.com",
+    BlogUrl: "https://blog-v3.kemeow.top",
 
     // 油管链接
     YoutubeUrl: "",
 
     // 推特链接
-    TwitterUrl: "",
+    TwitterUrl: "https://twitter.com/kemiaosw",
+
+    // Telegram 链接
+    TelegramUrl: "https://t.me/kemiaoJun",
+
+    // 邮箱 链接
+    MailUrl: "mailto:kemiaofx@163.com",
 
     // B站UID
-    BilibiliUid: "345815762",
+    BilibiliUid: "3546643173477234",
 
     // 默认 /home.md 
     // null 则不显示
@@ -36,18 +42,18 @@ export default {
     // 网页信息
     SiteHead: {
         // 站点标题
-        Title: "❖星港◎Star☆ 的主页",
+        Title: "❖克喵爱吃卤面☆ 的主页",
 
         // 站点图标
-        Favicon: "https://bu.dusays.com/2023/09/27/6513053d49e3e.webp",
+        Favicon: "https://s2.loli.net/2025/04/21/OMNycVpidhQt92r.png",
 
         // 站点关键词 多个使用 “,” 分割
-        KeyWords: "❖星港◎Star☆,主页",
+        KeyWords: "克喵爱吃卤面,主页",
 
         // 站点介绍
-        Desc: "👋 Hi! 这里是 ❖星港◎Star☆ 的主页",
+        Desc: "👋 Hi! 这里是 ❖克喵爱吃卤面☆ 的主页",
     },
 
-    SiteBackground: "url(https://bu.dusays.com/2025/04/11/67f9334b1a605.webp) center/cover",
+    SiteBackground: "url(https://s2.loli.net/2025/03/26/1zJfc5ysV9PSBGU.jpg) center/cover",
 
 }

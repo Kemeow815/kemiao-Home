@@ -1,1 +1,1 @@
-### <p align="center">👋 Hi!</p>
+### <p align="center">愿你看清一切真相后，依旧热爱你的家人和朋友。</p>

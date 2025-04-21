@@ -1,6 +1,6 @@
 import Card from "../components/Card"
 import config from "../../config";
-import { Github, Book, Youtube, Twitter } from "lucide-react";
+import { Github, Book, Youtube, Twitter, Send, Mail } from "lucide-react";
 import { useEffect, useState } from "react";
 import request from "umi-request";
 import { marked } from "marked";
@@ -60,7 +60,7 @@ export default function HomeView() {
 }
 
 function getSocialLinks(): { href: string, icon: JSX.Element }[] {
-  const { GithubUsername, BlogUrl, YoutubeUrl, TwitterUrl } = config
+  const { GithubUsername, BlogUrl, YoutubeUrl, TwitterUrl, TelegramUrl, MailUrl } = config
   const result = []
   if (GithubUsername) {
     result.push({
@@ -73,6 +73,20 @@ function getSocialLinks(): { href: string, icon: JSX.Element }[] {
     result.push({
       href: BlogUrl,
       icon: <Book />,
+    })
+  }
+
+  if (MailUrl) {
+    result.push({
+      href: MailUrl,
+      icon: <Mail />,
+    })
+  }
+
+  if (TelegramUrl) {
+    result.push({
+      href: TelegramUrl,
+      icon: <Send />,
     })
   }
 
