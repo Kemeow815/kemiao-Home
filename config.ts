@@ -25,6 +25,10 @@ export default {
     // 推特链接
     TwitterUrl: "https://twitter.com/kemiaosw",
 
+    MusicUrl: "https://music.kemiao.online",
+
+    NewspaperUrl: "https://dailyhot.kemeow.cn",
+
     // Telegram 链接
     TelegramUrl: "https://t.me/kemiaoJun",
 
